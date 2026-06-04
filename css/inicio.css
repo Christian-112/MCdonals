@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+.hamburguesas{
+    position: relative; 
+    width: 90%;         
+    max-width: 1200px;
+    padding: 15px;      
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);  
+    margin: 30px auto;  
+}
+
+.hamburguesas img{
+    width: 100%;
+    height: auto;       
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.hamburguesas .boton{
+    position: absolute;
+    bottom: 50px;       
+    left: 25%;          
+    padding: 5px 5px; 
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hamburguesas .boton:hover {
+    background-color: yellow;
+    transition: 0.3s;
+}
+
+.juan{
+    position: relative; 
+    width: 90%;         
+    max-width: 1200px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 30px auto;  
+}
+
+.juan img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.juan .hola{
+    position: absolute;
+    bottom: 30px;       
+    left: 70%;          
+    transform: translateX(-50%); 
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    gap: 15px; 
+    margin: 30px auto;  
+    text-align: center;
+}
+
+.contenedor img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.contenedor h2{ 
+    font-size: 30px; 
+    margin-top: 10px;
+}
+
+.contenedor .texto{
+    margin-top: 20px;
+}
+
+.contenedor .tio{
+    margin-top: 30px;
+}
+
+.contenedor .boton2{
+    background-color: yellow;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.fin-de-la-pagina{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+    width: 100%;        
+    min-height: 50vh;  
+    background-color: rgb(215, 2, 2);
+    margin: 50px 0 0 0; 
+    padding: 30px 10px;
+}
+
+.m{
+    width: 80%;        
+    max-width: 300px; 
+    height: 150px;
+    margin: 0 auto 20px auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m img{
+    width: 100%;      
+    height: 100%;
+    object-fit: contain; 
+}
+
+.fin-de-la-pagina .mac{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32px;  
+}
+
