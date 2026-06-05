@@ -1,0 +1,69 @@
+.titulo-2{
+width: 80%;
+margin: 0 auto;
+font-size:1.5rem;
+padding: 30px;
+border-bottom: 1px solid black;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-items: center;
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.contenedor .contenedor-tarjetas{
+    width: 250px;
+    height: 450px;
+    background-color:white;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.contenedor-tarjetas img{
+    display: block;
+    margin: 10px auto;
+    height: 30%;
+    width: 55%;
+    border-radius: 10px;
+    background-position: center;
+    align-items: center
+    ;
+}
+
+p.tt{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+a.an{
+    color: rgb(46, 45, 45);
+    font-size: 20px;
+}
+
+span{
+    color: #9b969b;
+}
+
+.car span{
+    color:  #9b969b;
+    font-size: 17px;
+    padding: 10px;
+}
+
+@media(max-width:768px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:468px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
