@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.soda{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 30px;
+    border-bottom: 1px solid black;
+
+}
+
+.bebidas{
+    padding-bottom: 20px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.contenedor .img{
+    display: block;
+    margin: 10px auto;
+    height: 60%;
+    width: 60%;
+    background-position: center;
+}
+
+.contenedor .img img{
+    width: 100%;
+}
+
+@media (max-width:768px){
+    .contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media (max-width:468px){
+    .contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+}
