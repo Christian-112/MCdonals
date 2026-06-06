@@ -1,13 +1,45 @@
 /* navegacion */
+#Navegacion{
+    width: 100%;
+    height: 74px;
+}
 .barra_nav{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height: 10vh;
-    position: sticky;
+    background-color: white;
+    position: fixed;
     top: 0;
-    scroll-behavior: smooth;
     border-bottom: 1px solid black;
+}
+@media(max-width:768px){
+    #Navegacion{
+    width: 100%;
+    height: 150px;
+    }
+    .barra_nav{
+    height: 150px;
+    }
+    .nav-con{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+@media(max-width:468px){
+    #Navegacion{
+    width: 100%;
+    height: 200px;
+    }
+    .barra_nav{
+    height: 200px;
+    }
+    .nav-con{
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .listado_nav{
+    flex-wrap: wrap;
+    }
 }
 .nav-con{
     display: flex;
